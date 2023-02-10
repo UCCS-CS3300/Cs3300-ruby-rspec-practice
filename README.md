@@ -20,14 +20,11 @@ After completing this assignment, you will know how to:
 
 ## **Commit Work Frequently**
 
-Run another docker container and fork this code to your docker environment. 
-Create a repository in GitHub to put your code but make it private.
+Run your current docker container and fork this code. Then clone this code to your docker environment. 
 
 ## SECTION 1: RUBY BASICS
 
 ------------------------------------------------------------------------------------------------------------
-
-
 
 
 ## **Overview**
@@ -35,7 +32,7 @@ Create a repository in GitHub to put your code but make it private.
 The repo for this assignment follows a fairly standard Ruby convention for codebases: **the code files are stored in lib/ and the test files are stored in spec/**. (We use the RSpec unit-testing framework)
 
 
-You SHOULD do your own testing. Test each of the 3 parts separately, or together. The files spec/part[123]_spec.rb contain RSpec tests for each of the three parts. For example, to test your answers to Part 1, say rspec ./spec/part1_spec.rb. rspec with no arguments runs the tests in all the files spec/*_spec.rb.
+You SHOULD do your own testing. Test each of the 3 parts separately, or together. The files spec/part[123]_spec.rb contain RSpec tests for each of the three parts. For example, to test your answers to Part 1, say rspec ./spec/part1_spec.rb. rspec with no arguments runs the tests in all the files spec/*_spec.rb. You wil notice you can run the command with -e to run a certain test. For example in part 2: rspec -e '#starts_with_consonant?' spec/part2_spec.rb
 
 
 *   The line numbers in the RSpec error report will give you guidance as to which tests failed. (You can check the[ RSpec documentation](http://rspec.info) to see how the .rspec file can be used to customize the output format.)
@@ -44,7 +41,8 @@ To ensure you have the rspec gem installed, you need bundler and can then run bu
 
 
 ```
-$ cd Cs3300-ruby-rspec
+$ cd Cs3300-ruby-rspec-practice
+
 $ bundle install
 
 $ rspec spec/ for all parts 1 through 3 or rspec spec/part#_spec.rb to run 1 at a time for 1 through 3
@@ -57,7 +55,7 @@ LOOK AT THE TESTS IN THE SPEC FOLDER!! Right now, all tests will fail. Your goal
 
 # **1. Arrays, Hashes, and Enumerables**
 
-Check the[ Ruby 2.x documentation](http://ruby-doc.org) on Array, Hash and Enumerable as they could help tremendously with these exercises!  
+Check the[ Ruby 3.0.x documentation](http://ruby-doc.org) on Array, Hash and Enumerable as they could help tremendously with these exercises!  
 
 
 
